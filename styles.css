@@ -1,0 +1,17 @@
+thead{
+	background-color: #aaa;
+} 
+tbody{
+	background-color: #ddd;
+}
+table{
+	size: inherit;
+    margin: auto;
+    margin-top: 20%;
+}
+th{
+	padding: 20px;
+} 
+td{
+	padding: 10px;
+}
