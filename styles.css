@@ -28,12 +28,13 @@ span.glyphicon{
 	top:35px;
 	font-size: 100px;
 	color: #1f8c8c;
+	transition: 2s ease;
 }
 span.glyphicon-circle-arrow-up{
 	float: right;
 }
 div.row{
-	margin-top: 20%
+	margin-top: 25%
 }
 div.arrows{
 	padding-left:20px;
