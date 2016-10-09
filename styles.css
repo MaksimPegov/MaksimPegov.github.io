@@ -1,7 +1,11 @@
+body{
+	width: 100%;
+}
 thead{
 	background-color: #aaa;
 } 
 tbody{
+	width: 100%;
 	color: #1b4468;
     background-color: rgba(92, 200, 200, 0.72);
 }
@@ -22,21 +26,31 @@ th.title{
 
 } 
 td{
-	padding: 10px;
+	padding: 15px;
 }
 span.glyphicon{
 	top:35px;
 	font-size: 100px;
 	color: #1f8c8c;
-	transition: 2s ease;
+	transition: all 1s ease;
+}
+.no-touch span.glyphicon:hover{
+	color: #643289;
+	transition: all .1s ease;
+}
+span.glyphicon:active{
+		color: #8c1ad1;
 }
 span.glyphicon-circle-arrow-up{
 	float: right;
 }
 div.row{
-	margin-top: 25%
+	margin-top: 15%
 }
 div.arrows{
 	padding-left:20px;
 	padding-right:20px  
+}
+tr.selected-row{
+	background-color: rgb(87, 219, 230); 
 }

@@ -8,43 +8,45 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="row">
-		<div class="col-md-8 col-sm-12 col-md-push-2">
-			<table>
-			<thead>
-			<tr><th class="title" colspan="3">Люди</th></tr>
-			<tr>
+	<div class="container">	
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col-md-push-2">
+				<table>
+				<thead>
+				<tr><th class="title" colspan="3">Люди</th></tr>
+				<tr>
 
-				<th>Имя</th>
-				<th>Фамилия</th>
-				<th>Отчество</th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-	          	<td>Максим</td>
-	          	<td>Пегов</td>
-	          	<td>Антонович</td>
-	          </tr>
+					<th>Имя</th>
+					<th>Фамилия</th>
+					<th>Отчество</th>
+				</tr>
+				</thead>
+				<tbody>
+				  <tr class="selected-row">
+		          	<td>Максим</td>
+		          	<td>Пегов</td>
+		          	<td>Антонович</td>
+		          </tr>
 
-	          <tr>
-	          	<td>Антон</td>
-	          	<td>Пегов</td>
-	          	<td>Александрович</td>
-	          </tr>
-	          <tr>
-	          	<td>Татьяна</td>
-	          	<td>Пегова</td>
-	          	<td>Алексеевна</td>
-	          </tr>		                                                                                              
-			</tbody>
-			</table>
-		</div>
-		<div class="col-md-2 col-sm-6 col-md-pull-8 arrows">
-				<span class="glyphicon glyphicon-circle-arrow-up"></span>
-		</div>
-		<div class="col-md-2 col-sm-6 arrows">
-				<span class="glyphicon glyphicon-circle-arrow-down"></span>
+		          <tr>
+		          	<td>Антон</td>
+		          	<td>Пегов</td>
+		          	<td>Александрович</td>
+		          </tr>
+		          <tr>
+		          	<td>Татьяна</td>
+		          	<td>Пегова</td>
+		          	<td>Алексеевна</td>
+		          </tr>		                                                                                              
+				</tbody>
+				</table>
+			</div>
+			<div class="col-md-2 col-sm-6 col-md-pull-8 arrows">
+					<span class="glyphicon glyphicon-circle-arrow-up" onclick="clickUp()"></span>
+			</div>
+			<div class="col-md-2 col-sm-6 arrows">
+					<span class="glyphicon glyphicon-circle-arrow-down" onclick="clickDown()"></span>
+			</div>
 		</div>
 	</div>
 <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
