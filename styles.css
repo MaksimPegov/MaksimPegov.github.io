@@ -1,5 +1,6 @@
 body{
 	width: 100%;
+
 }
 thead{
 	background-color: #aaa;
@@ -8,6 +9,10 @@ tbody{
 	width: 100%;
 	color: #1b4468;
     background-color: rgba(92, 200, 200, 0.72);
+}
+.box{
+	margin:20px;
+	width:100%;
 }
 table{
 	size: inherit;
@@ -34,9 +39,12 @@ span.glyphicon{
 	color: #1f8c8c;
 	transition: all 1s ease;
 }
-.no-touch span.glyphicon:hover{
+.non-touch span.glyphicon:hover{
 	color: #643289;
 	transition: all .1s ease;
+}
+.non-touch span.glyphicon:active{
+		color: #8c1ad1;
 }
 span.glyphicon:active{
 		color: #8c1ad1;
@@ -45,7 +53,7 @@ span.glyphicon-circle-arrow-up{
 	float: right;
 }
 div.row{
-	margin-top: 15%
+	
 }
 div.arrows{
 	padding-left:20px;
@@ -53,4 +61,27 @@ div.arrows{
 }
 tr.selected-row{
 	background-color: rgb(87, 219, 230); 
+}
+
+.image{
+	margin :auto;
+	text-align: center;
+}
+
+img{
+	margin :auto;
+	width: 30%;
+}
+
+@media (max-width: 992px){
+	td{
+		font-size: x-large;
+	}
+	th{
+		font-size: xx-large;
+	}
+	img{
+	margin :auto;
+	width: 90%;
+}	
 }
