@@ -8,6 +8,11 @@
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
 
+.project{
+  color:#6ABCE7 !important;
+  font-size: 16px;
+}
+
 /* Carousel base class */
 .carousel {
   height: 280px;
